@@ -1,7 +1,7 @@
 import React from "react";
 import Container from "../common/Container";
 import styled from "styled-components";
-import BannerImg from "../../assets/BannerImg.png"
+import BannerImg from "../../assets/BannerImg.png";
 import Img from "../common/Img";
 
 const Banner = () => {
@@ -20,7 +20,7 @@ const Banner = () => {
             <Register>Register</Register>
           </LeftSide>
           <RightSide>
-            <Img src={BannerImg} alt={BannerImg}/>
+            <Img src={BannerImg} alt={BannerImg} />
           </RightSide>
         </SideBySide>
       </Container>
@@ -38,6 +38,7 @@ const BannerMain = styled.nav`
 const SideBySide = styled.div`
   display: flex;
   justify-content: space-between;
+  align-items: center;
 `;
 
 const LeftSide = styled.div`
@@ -48,24 +49,24 @@ const RightSide = styled.div`
 `;
 
 const Heading = styled.h1`
-max-width:657px;
- color:  black;
+  max-width: 657px;
+  color: black;
   font-family: "Inter", sans-serif;
   font-size: 64px;
   font-weight: 600;
-  line-height:76px
+  line-height: 76px;
 `;
 
 const InnerHeading = styled.span`
   color: #4caf4f;
 `;
 const Paragraph = styled.p`
- color:  #717171;
+  color: #717171;
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  margin-top:16px;
-  margin-bottom:32px;
+  margin-top: 16px;
+  margin-bottom: 32px;
 `;
 
 const Register = styled.button`

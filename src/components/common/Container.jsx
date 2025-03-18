@@ -10,6 +10,6 @@ const Container = ({children}) => {
 export default Container
 
 const CommonContainer = styled.div`
-max-width : 1200px;
+max-width : 1152px;
 margin : 0 auto;
 `
